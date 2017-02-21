@@ -90,8 +90,10 @@ img.swingBr{
 }
 
 img.clockT{
-  height:inherit;
-  float:right
+  height:225px;
+  float:right;
+  transform: rotate(90deg);
+  margin-top:71px
 }
 
 
