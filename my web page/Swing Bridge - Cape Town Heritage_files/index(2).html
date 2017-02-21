@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0150)https://tpc.googlesyndication.com/sadbundle/11125644897280997871/index.html?csp=er3#t=11807927225464843485&p=https%3A%2F%2Fgoogleads.g.doubleclick.net -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./exitapi-impl.js" type="text/javascript"></script><script src="./addata.js" type="text/javascript"></script><meta content="width=728,height=90" name="ad.size"><title>index</title><script src="./createjs-2015.11.26.min(1).js"></script><script src="./index(1).js"></script><script>
+var canvas, stage, exportRoot;
+function init() {
+	// --- write your JS code here ---
+	
+	canvas = document.getElementById("canvas");
+	images = images||{};
+
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", handleFileLoad);
+	loader.addEventListener("complete", handleComplete);
+	loader.loadManifest(lib.properties.manifest);
+}
+
+function handleFileLoad(evt) {
+	if (evt.item.type == "image") { images[evt.item.id] = evt.result; }
+}
+
+function handleComplete(evt) {
+	exportRoot = new lib._728x90();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+
+</script><script type="text/javascript" src="./2KDDURkIpvVeU-Erk15grC6yvqEvt0pT4NdoPj2qwDw.js"></script></head><body onclick="ExitApi.exit();" onload="init();" style="background-color:#D4D4D4;margin:0px;; cursor:pointer">
+
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+	<canvas height="90" id="canvas" style="background-color:#FFFFFF" width="728"></canvas>
+    
+
+
+<script type="text/javascript">
+(function() {
+  var layer = document.getElementById("clickTagLayer");
+  if (layer) {
+    var listen = function(obj, e, fn) {
+	  if (obj.addEventListener) { obj.addEventListener(e, fn, false); } else { obj.attachEvent("on"+e, fn); }
+	};
+    listen(layer, 'click', function (evt) {
+      evt.stopPropagation();
+      try { evt.cancelBubble(); } catch (e) { /* ignore */ }
+      window.open(window.clickTag, '_blank');
+    });
+  }
+})();
+</script>
+
+
+</body></html>
