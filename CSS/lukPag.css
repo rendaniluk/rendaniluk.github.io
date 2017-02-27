@@ -12,7 +12,6 @@ background-color:whitesmoke;
 /*width: 100%;*/
 }
 
-<<<<<<< HEAD
 #container {
   height:100%;
     margin : 1em auto;
@@ -24,11 +23,6 @@ background-color:whitesmoke;
      
 }
 
-=======
-section{
-  width: auto;
-}
->>>>>>> 302cba34b97f46bdb6478652562cc3a47da36d2e
 /*h1,h2,h3,h4 {
     text-shadow: 3px 2px aqua;
 }*/
@@ -36,11 +30,8 @@ section{
 
 div.name,.title,.ca,.lang,.clockTower,.afrT,.swingB{
   height: 350px;
-<<<<<<< HEAD
   width: 98%;
-=======
   width: inherit;
->>>>>>> 302cba34b97f46bdb6478652562cc3a47da36d2e
   border-radius: 5px;
    margin: 15px;
     margin-top: 15px;
@@ -55,22 +46,16 @@ div.name,.title,.ca,.lang,.clockTower,.afrT,.swingB{
 
 div.lang{
   height: 140px;
-<<<<<<< HEAD
   width: 98%;
-=======
   width:inherit;
->>>>>>> 302cba34b97f46bdb6478652562cc3a47da36d2e
   border-radius: 5px;
 
 }
 
 div.title{
   height: 40px;
-<<<<<<< HEAD
   width: 98%;
-=======
   width: inherit;
->>>>>>> 302cba34b97f46bdb6478652562cc3a47da36d2e
   border-radius: 5px;
  }
 
@@ -164,14 +149,4 @@ img.swingBr,#afrT{
 footer{
   text-align:center
 }
-<<<<<<< HEAD
 
-
-
-
-
-
-
-
-=======
->>>>>>> 302cba34b97f46bdb6478652562cc3a47da36d2e
