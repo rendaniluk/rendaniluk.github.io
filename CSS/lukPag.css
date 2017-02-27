@@ -29,7 +29,7 @@ background-color:whitesmoke;
 
 
 div.name,.title,.ca,.lang,.clockTower,.afrT,.swingB{
-  height: 350px;
+  height:22em;
   width: 98%;
   width: inherit;
   border-radius: 5px;
@@ -85,13 +85,6 @@ div.pa{
   float:right
 }
 
-table.tab{
-  margin-left: 60%;
-  margin-right:auto;
-  margin-top:auto;
-  margin-bottom: auto;
-}
-
 
 img {
     border-radius: 5px;
@@ -117,13 +110,12 @@ img.swingBr{
 }
 
 img.clockT{
-  height:40%;
-  width:25%;
+  height:18em;
+  width:18em;
   float:right;
   transform: rotate(90deg);
-  margin-right:66px;
-  margin-top:75px
-}
+  
+  }
 
 
 div.pa2{
@@ -137,7 +129,7 @@ div.pa2{
 div.pa1{
   text-align: justify;
   height: 0px;
-  width: 50%;
+  width: 48%;
   border-radius: 5px;
   float:left;
 }
@@ -149,4 +141,8 @@ img.swingBr,#afrT{
 footer{
   text-align:center
 }
+
+
+
+
 
